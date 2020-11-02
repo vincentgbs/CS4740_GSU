@@ -1,0 +1,76 @@
+1)
+dataset:
+
+shape of dataset:
+(150, 4)
+feature names:
+['sepal length (cm)', 'sepal width (cm)', 'petal length (cm)', 'petal width (cm)']
+targets:
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2
+ 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+ 2 2]
+shape of targets
+(150,)
+2)
+convert to DataFrame,
+and add column CLASS
+
+5     1.7
+6     1.4
+7     1.5
+8     1.4
+9     1.5
+10    1.5
+Name: petal length (cm), dtype: float64
+7    3.4
+8    2.9
+9    3.1
+Name: sepal width (cm), dtype: float64
+mean and standard deviation:
+5.84333333333
+0.828066127978
+       sepal length (cm)  sepal width (cm)  petal length (cm)  \
+count         150.000000        150.000000         150.000000
+mean            5.843333          3.054000           3.758667
+std             0.828066          0.433594           1.764420
+min             4.300000          2.000000           1.000000
+25%             5.100000          2.800000           1.600000
+50%             5.800000          3.000000           4.350000
+75%             6.400000          3.300000           5.100000
+max             7.900000          4.400000           6.900000
+
+       petal width (cm)      target       CLASS
+count        150.000000  150.000000  150.000000
+mean           1.198667    1.000000    1.000000
+std            0.763161    0.819232    0.819232
+min            0.100000    0.000000    0.000000
+25%            0.300000    0.000000    0.000000
+50%            1.300000    1.000000    1.000000
+75%            1.800000    2.000000    2.000000
+max            2.500000    2.000000    2.000000
+3)
+missing values in College:
+84
+count     457
+unique     31
+top        24
+freq       46
+Name: Age, dtype: object
+anomalies in Age
+                   Name                  Team  Number Position          Age  \
+0         Avery Bradley        Boston Celtics       0       PG  twenty five
+15     Bojan Bogdanovic         Brooklyn Nets      44       SG        Bojan
+31         Lou Amundson       New York Knicks      17       PF          Lou
+254  Donatas Motiejunas       Houston Rockets      20       PF          -25
+282  Bryce Dejean-Jones  New Orleans Pelicans      31       SG          -23
+
+     Height  Weight     College     Salary
+0     2-Jun     180       Texas  7730337.0
+15    8-Jun     216         NaN  3425510.0
+31    9-Jun     220        UNLV  1635476.0
+254  Jul-00     222         NaN  2288205.0
+282   6-Jun     203  Iowa State   169883.0
+Covariance for Age and Salary:
+-85397931.5978

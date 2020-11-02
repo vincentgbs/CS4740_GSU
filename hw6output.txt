@@ -1,0 +1,59 @@
+## Vincent Hu
+## Homework 6
+## Undergraduate
+
+43.000112
+39.26
+(-2.5742714883655027, 0.9949774291475237)
+0.831
+0.751
+(-4.418839134846804, 1.0454711057342816e-05, 1998.0)
+linear kernel accuracy score: 0.6375
+linear kernel accuracy score: 0.596875
+linear kernel accuracy score: 0.565625
+linear kernel accuracy score: 0.584375
+linear kernel accuracy score: 0.559375
+poly kernel accuracy score: 0.6125
+poly kernel accuracy score: 0.609375
+poly kernel accuracy score: 0.571875
+poly kernel accuracy score: 0.596875
+poly kernel accuracy score: 0.55625
+rbf kernel accuracy score: 0.61875
+rbf kernel accuracy score: 0.609375
+rbf kernel accuracy score: 0.5875
+rbf kernel accuracy score: 0.58125
+rbf kernel accuracy score: 0.625
+linear avg: 0.5887499999999999
+polynomial avg: 0.589375
+gaussian avg: 0.6043749999999999
+linear kernel accuracy score: 0.6
+linear kernel accuracy score: 0.60625
+linear kernel accuracy score: 0.575
+linear kernel accuracy score: 0.58125
+linear kernel accuracy score: 0.559375
+poly kernel accuracy score: 0.63125
+poly kernel accuracy score: 0.615625
+poly kernel accuracy score: 0.56875
+poly kernel accuracy score: 0.584375
+poly kernel accuracy score: 0.565625
+rbf kernel accuracy score: 0.646875
+rbf kernel accuracy score: 0.609375
+rbf kernel accuracy score: 0.609375
+rbf kernel accuracy score: 0.646875
+rbf kernel accuracy score: 0.628125
+0.7952827473610359
+linear kernel accuracy score: 0.615625
+linear kernel accuracy score: 0.60625
+linear kernel accuracy score: 0.546875
+linear kernel accuracy score: 0.56875
+linear kernel accuracy score: 0.553125
+poly kernel accuracy score: 0.51875
+poly kernel accuracy score: 0.525
+poly kernel accuracy score: 0.5
+poly kernel accuracy score: 0.5625
+poly kernel accuracy score: 0.559375
+rbf kernel accuracy score: 0.65625
+rbf kernel accuracy score: 0.621875
+rbf kernel accuracy score: 0.575
+rbf kernel accuracy score: 0.65
+rbf kernel accuracy score: 0.5875
